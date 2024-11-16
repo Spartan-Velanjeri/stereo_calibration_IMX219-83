@@ -74,4 +74,4 @@ f = 2.6 # in mm
 alpha = 73 # in degrees
 
 zDepth = find_depth(right_point, left_point, gray_imageR, gray_imageL, baseline,f, alpha)
-print(f"Depth of the box is around : {zDepth/100} metres" ) # -1.92 Metres
+print(f"Depth of the box is around : {zDepth/100} metres" ) # 1.92 Metres
